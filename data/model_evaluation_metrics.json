@@ -1,0 +1,127 @@
+{
+  "model": "FOMO MobileNetV2 0.35 (128x128)",
+  "dataset": "Roboflow Target 8 Classes (User Uploaded)",
+  "test_images_count": 629,
+  "total_ground_truth_objects": 1815,
+  "overall_precision_pct": 67.11,
+  "overall_recall_pct": 19.13,
+  "overall_f1_score": 29.78,
+  "classes": {
+    "car": {
+      "ground_truth": 307,
+      "tp": 18,
+      "fp": 19,
+      "fn": 290,
+      "precision_pct": 48.65,
+      "recall_pct": 5.84,
+      "f1_score": 10.43
+    },
+    "chair": {
+      "ground_truth": 142,
+      "tp": 52,
+      "fp": 38,
+      "fn": 96,
+      "precision_pct": 57.78,
+      "recall_pct": 35.14,
+      "f1_score": 43.7
+    },
+    "door": {
+      "ground_truth": 175,
+      "tp": 38,
+      "fp": 12,
+      "fn": 143,
+      "precision_pct": 76.0,
+      "recall_pct": 20.99,
+      "f1_score": 32.9
+    },
+    "motorcycle": {
+      "ground_truth": 187,
+      "tp": 83,
+      "fp": 32,
+      "fn": 113,
+      "precision_pct": 72.17,
+      "recall_pct": 42.35,
+      "f1_score": 53.38
+    },
+    "person": {
+      "ground_truth": 287,
+      "tp": 82,
+      "fp": 34,
+      "fn": 211,
+      "precision_pct": 70.69,
+      "recall_pct": 27.99,
+      "f1_score": 40.1
+    },
+    "pole": {
+      "ground_truth": 361,
+      "tp": 60,
+      "fp": 17,
+      "fn": 302,
+      "precision_pct": 77.92,
+      "recall_pct": 16.57,
+      "f1_score": 27.33
+    },
+    "stairs": {
+      "ground_truth": 165,
+      "tp": 18,
+      "fp": 14,
+      "fn": 148,
+      "precision_pct": 56.25,
+      "recall_pct": 10.84,
+      "f1_score": 18.18
+    },
+    "table": {
+      "ground_truth": 191,
+      "tp": 2,
+      "fp": 7,
+      "fn": 189,
+      "precision_pct": 22.22,
+      "recall_pct": 1.05,
+      "f1_score": 2.0
+    }
+  },
+  "confusion_matrix": {
+    "person": {
+      "None (Missed)": 211,
+      "person": 82
+    },
+    "motorcycle": {
+      "None (Missed)": 113,
+      "motorcycle": 83
+    },
+    "car": {
+      "None (Missed)": 290,
+      "car": 18
+    },
+    "table": {
+      "None (Missed)": 189,
+      "table": 2
+    },
+    "Background (Ghost)": {
+      "chair": 38,
+      "stairs": 14,
+      "car": 19,
+      "person": 34,
+      "motorcycle": 32,
+      "pole": 17,
+      "door": 12,
+      "table": 7
+    },
+    "stairs": {
+      "None (Missed)": 148,
+      "stairs": 18
+    },
+    "chair": {
+      "None (Missed)": 96,
+      "chair": 52
+    },
+    "door": {
+      "None (Missed)": 143,
+      "door": 38
+    },
+    "pole": {
+      "pole": 60,
+      "None (Missed)": 302
+    }
+  }
+}

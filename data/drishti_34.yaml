@@ -1,0 +1,41 @@
+# Drishti 34 Assistive Vision Dataset Configuration
+path: ./datasets/drishti_34
+train: images/train
+val: images/val
+test: images/test
+nc: 34
+names:
+  0: '0001'  # Stairs Down
+  1: '0002'  # Stairs Up
+  2: '0004'  # Pothole / Trench / Hole
+  3: '0006'  # Pole / Street Post
+  4: '0007'  # Wall / Barricade
+  5: '0008'  # Closed Door
+  6: '0010'  # Zebra Crosswalk
+  7: '0011'  # Traffic Light (Red)
+  8: '0012'  # Traffic Light (Green)
+  9: '0013'  # Person / Pedestrian
+  10: '0014'  # Dog / Guide Dog
+  11: '0015'  # Cat / Small Pet
+  12: '0016'  # Cow / Large Animal
+  13: '0017'  # Bicycle
+  14: '0018'  # Motorcycle / Scooter
+  15: '0019'  # Car / Taxi
+  16: '0020'  # Bus
+  17: '0022'  # Auto Rickshaw / Light Transit
+  18: '0023'  # Chair
+  19: '0025'  # Bed
+  20: '0026'  # Table / Desk
+  21: '0027'  # Toilet / Commode
+  22: '0029'  # Elevator / Lift
+  23: '0030'  # Dustbin / Trash Can
+  24: '0032'  # Eyeglasses / Spectacles
+  25: '0033'  # Mobile Phone
+  26: '0035'  # Water Bottle
+  27: '0039'  # Currency Note
+  28: '0040'  # Coin
+  29: '0042'  # Wallet / Purse
+  30: '0045'  # Electrical Wall Socket / Switch
+  31: '0046'  # Stove / Microwave / Burner
+  32: '0047'  # Refrigerator
+  33: '0050'  # Ceiling / Pedestal Fan

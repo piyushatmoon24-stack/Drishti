@@ -1,0 +1,17 @@
+# Drishti Active 8-Class Assistive Vision Dataset Configuration
+# Trained on Edge Impulse FOMO MobileNetV2 0.35 (Himax WiseEye2 / Ethos-U55 NPU)
+# Balanced Roboflow dataset: ~750 images/class (4,193 total images) at native 128x128 RGB
+path: ./datasets/roboflow_clean_target8
+train: train
+val: valid
+test: test
+nc: 8
+names:
+  0: 'car'         # ID 19 -> 0019.mp3 (Priority 1 Critical Traffic Hazard)
+  1: 'chair'       # ID 23 -> 0023.mp3 (Priority 3 Indoor Furniture)
+  2: 'door'        # ID 8  -> 0008.mp3 (Priority 2 Navigation Pathway)
+  3: 'motorcycle'  # ID 18 -> 0018.mp3 (Priority 1 Critical Traffic Hazard)
+  4: 'person'      # ID 13 -> 0013.mp3 (Priority 2 Pedestrian Safety)
+  5: 'pole'        # ID 6  -> 0006.mp3 (Priority 2 Street Obstacle)
+  6: 'stairs'      # ID 1  -> 0001.mp3 (Priority 1 Critical Fall Hazard)
+  7: 'table'       # ID 26 -> 0026.mp3 (Priority 3 Indoor Furniture)
