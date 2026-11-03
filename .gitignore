@@ -2,9 +2,13 @@
 # DRISHTI: Assistive Smart Stick .gitignore
 # ==========================================
 
-# Raw Dataset Images & Zips (Store on Roboflow / Cloud Storage)
+# Local Archive & Historical Backups (Kept on local machine only)
+archive/
+
+# Raw Dataset Images & Compressed Archives
 datasets/
 *.zip.tmp
+*.zip
 
 # Compiled Build Artifacts
 **/build/
