@@ -4,7 +4,7 @@
 [![Hardware](https://img.shields.io/badge/Hardware-XIAO%20ESP32--S3%20%7C%20Grove%20Vision%20AI%20V2-brightgreen.svg)](https://www.seeedstudio.com/)
 [![NPU](https://img.shields.io/badge/NPU-Arm%20Ethos--U55%20(3ms%20Inference)-orange.svg)](https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u55)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Award](https://img.shields.io/badge/Recognition-Best%20Project%20Award%20Winner-gold.svg)](#acknowledgments)
+[![Award](https://img.shields.io/badge/Recognition-Department's%20Best%20Project%20Award%20Winner-gold.svg)](#acknowledgments)
 
 **Drishti** (*Sanskrit for "Vision"*) is an embedded edge-AI navigation and obstacle identification smart stick designed to empower visually impaired individuals with real-time, context-aware mobility safety.
 
